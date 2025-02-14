@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bg.png");
+
+  /* Full height */
+  height: 105%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    background: #363636;
+}
+
+.logo {
+    display: block;
+    margin-left : auto;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 130px;
+    height: 130px; /* Adjust size as needed */
+}
+.container f {
+    background: #74b3aa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position:bottom;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    padding: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #4a90e2;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #596164;
+}
+
+select {
+    padding: 0.5rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #4a90e2;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #616161;
+}
+img {
+    border: 2px solid #292929;
+    margin: 24px 0 0;
+    padding: 0;
+}
